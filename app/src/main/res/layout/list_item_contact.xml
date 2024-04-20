@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Sahil Ingle"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:paddingStart="15dp" />
+
+    <TextView
+        android:id="@+id/textViewNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewName"
+        android:text="9820749896"
+        android:textSize="15sp"
+        android:paddingTop="3dp"
+        android:paddingStart="15dp"
+        android:paddingBottom="8dp"/>
+
+</RelativeLayout>

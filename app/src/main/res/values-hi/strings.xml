@@ -1,0 +1,29 @@
+
+<resources>
+    <string name="app_name">Offline UPI</string>
+        <string name="continue_next">जारी रखें</string>
+        <string name="to_mobile_or_contact">मोबाइल या संपर्क को</string>
+        <string name="upi_transfer">यूपीआई ट्रांसफर</string>
+        <string name="bank_transfer">बैंक ट्रांसफर</string>
+        <string name="scan_pay"><![CDATA[स्कैन और भुगतान]]></string>
+        <string name="see_transaction_history">लेन-देन इतिहास देखें</string>
+        <string name="check_bank_balance">बैंक शेष जाँचें</string>
+        <string name="edit_info">जानकारी संपादित करें</string>
+        <string name="your_qr_code">आपका क्यूआर कोड</string>
+        <string name="change_bank_account">बैंक खाता बदलें</string>
+        <string name="change_language">भाषा बदलें</string>
+        <string name="log_out">लॉग आउट</string>
+        <string name="scan_to_pay_with_any_upi_app">किसी भी यूपीआई ऐप के साथ भुगतान करने के लिए स्कैन करें</string>
+        <string name="register">रजिस्टर</string>
+        <string name="name">नाम</string>
+        <string name="phone_number">फ़ोन नंबर</string>
+        <string name="upi_id_optional">यूपीआई आईडी (वैकल्पिक)</string>
+        <string name="enter_phone_number">फ़ोन नंबर दर्ज करें</string>
+        <string name="enter_amount">राशि दर्ज करें</string>
+        <string name="pay">भुगतान करें</string>
+        <string name="paste_here">यहाँ पेस्ट करें</string>
+        <string name="search">खोजें</string>
+    <string name="reset_pin">पिन रीसेट करें</string>
+
+
+</resources>

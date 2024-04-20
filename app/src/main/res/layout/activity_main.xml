@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Search Bar -->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/searchCardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="4dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@id/menu"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:cardBackgroundColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/search"
+                android:background="#FFFFFF"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/searchEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/search"
+                android:background="#FFFFFF"
+                android:layout_weight="1"
+                android:paddingStart="10dp"
+                android:textSize="18sp"
+                android:text="@string/search"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/black"
+                android:paddingVertical="12dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Profile Icon -->
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_profile"
+        app:layout_constraintBottom_toBottomOf="@id/searchCardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/searchCardView"
+        app:layout_constraintVertical_bias="0.5"
+        android:onClick="onMenuClick"/>
+
+
+    <ImageView
+        android:id="@+id/bodyImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/body"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@id/searchCardView"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:scaleType="fitCenter"/>
+
+    <!-- LinearLayout for Bank Image, Scanner Image, Phone Image, and UPI ID Image -->
+    <LinearLayout
+        android:id="@+id/mainfeature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="25dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/bodyImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- First row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <!-- Bank Image and its name -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!-- Bank Image -->
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:onClick="onPhoneClick"
+                    android:src="@drawable/phone_circle" />
+
+                <!-- Name of the Bank -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:onClick="onPhoneClick"
+                    android:textColor="@color/black"
+                    android:paddingTop="5dp"
+                    android:text="@string/to_mobile_or_contact"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- Scanner Image and its name -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!-- Scanner Image -->
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:onClick="onScannerClick"
+                    android:src="@drawable/qr_circle" />
+
+                <!-- Name of the Scanner -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/black"
+                    android:onClick="onScannerClick"
+                    android:text="@string/scan_pay"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Second row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+
+            <!-- Phone Image and its name -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!-- Phone Image -->
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:onClick="onBankClick"
+                    android:src="@drawable/bank_circle" />
+
+                <!-- Name of the Phone -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/black"
+                    android:onClick="onBankClick"
+                    android:text="@string/bank_transfer"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <!-- UPI ID Image and its name -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!-- UPI ID Image -->
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:onClick="onUPIClick"
+                    android:src="@drawable/upi_circle" />
+
+                <!-- Name of the UPI ID -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingTop="5dp"
+                    android:textColor="@color/black"
+                    android:onClick="onUPIClick"
+                    android:text="@string/upi_transfer"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/mainfeature"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="25dp">
+
+        <!-- LinearLayout for Recent Transaction -->
+        <LinearLayout
+            android:id="@+id/recentTransactionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Recent Transaction Image -->
+            <ImageView
+                android:id="@+id/recentTransactionImageView"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/recent"/>
+
+            <!-- Text for Recent Transaction -->
+            <TextView
+                android:id="@+id/recentTransactionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/see_transaction_history"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_marginEnd="15dp"
+                android:textColor="@android:color/black"
+                android:onClick="onRecentTransactionClick"/>
+        </LinearLayout>
+
+        <!-- LinearLayout for Bank Balance -->
+        <LinearLayout
+            android:id="@+id/bankBalanceLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical">
+
+            <!-- History Image -->
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/balance"/>
+
+            <!-- Text for Bank Balance -->
+            <TextView
+                android:id="@+id/checkBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_bank_balance"
+                android:textSize="17sp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:onClick="onCheckBalanceClick"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
+
+
+
+
+
+

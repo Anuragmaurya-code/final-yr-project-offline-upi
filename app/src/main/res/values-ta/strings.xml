@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Offline UPI</string>
+        <string name="continue_next">தொடர்க</string>
+        <string name="to_mobile_or_contact">மொபைல் அல்லது தொடர்பு</string>
+        <string name="upi_transfer">யூபிஐ பரிமாற்றம்</string>
+        <string name="bank_transfer">வங்கி பரிமாற்றம்</string>
+        <string name="scan_pay"><![CDATA[ஸ்கேன் & செலுத்து]]></string>
+        <string name="see_transaction_history">பரிவர்த்தனை வரலாற்றைக் காண்க</string>
+        <string name="check_bank_balance">வங்கி இருப்பு சரிபார்க்கவும்</string>
+        <string name="edit_info">தகவலை திருத்துக</string>
+        <string name="your_qr_code">உங்கள் க்யூஆர் குறியீடு</string>
+        <string name="change_bank_account">வங்கி கணக்கை மாற்றுக</string>
+        <string name="change_language">மொழியை மாற்றுக</string>
+        <string name="log_out">வெளியேறு</string>
+        <string name="scan_to_pay_with_any_upi_app">எந்த யூபிஐ பயன்படுத்தி செலுத்த ஸ்கேன் செய்யுங்கள்</string>
+        <string name="register">பதிவு செய்யுங்கள்</string>
+        <string name="name">பெயர்</string>
+        <string name="phone_number">தொலைபேசி எண்</string>
+        <string name="upi_id_optional">யூபிஐ ஐடி (விரும்பினது)</string>
+        <string name="enter_phone_number">தொலைபேசி எண் உள்ளிடவும்</string>
+        <string name="enter_amount">தொகை உள்ளிடவும்</string>
+        <string name="pay">செலுத்து</string>
+        <string name="paste_here">இங்கே சேர்க்க</string>
+        <string name="search">தேடு</string>
+    <string name="reset_pin">பின் மீட்டமை</string>
+
+
+</resources>

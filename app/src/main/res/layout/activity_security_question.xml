@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="60dp"
+    tools:context=".SecurityQuestionActivity">
+
+    <RelativeLayout
+        android:id="@+id/centerContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_centerInParent="true">
+        <!-- Security Question 1 -->
+        <Spinner
+            android:id="@+id/spinnerQuestion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/editTextAnswer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer 1"
+            android:layout_below="@id/spinnerQuestion1"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Security Question 2 -->
+        <Spinner
+            android:id="@+id/spinnerQuestion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextAnswer1"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextAnswer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer 2"
+            android:layout_below="@id/spinnerQuestion2"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Security Question 3 -->
+        <Spinner
+            android:id="@+id/spinnerQuestion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextAnswer2"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextAnswer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer 3"
+            android:layout_below="@id/spinnerQuestion3"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextAnswer3"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/btnColor"
+            android:text="@string/submit"/>
+    </RelativeLayout>
+</RelativeLayout>

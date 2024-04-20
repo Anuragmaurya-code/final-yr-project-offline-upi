@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Offline UPI</string>
+        <string name="continue_next">ಮುಂದುವರಿಸಿ</string>
+        <string name="to_mobile_or_contact">ಮೊಬೈಲ್ ಅಥವಾ ಸಂಪರ್ಕಿಸಿ</string>
+        <string name="upi_transfer">ಯುಪಿ ಬದಲಾಯಿಸಿ</string>
+        <string name="bank_transfer">ಬ್ಯಾಂಕ್ ಬದಲಾಯಿಸಿ</string>
+        <string name="scan_pay"><![CDATA[ಸ್ಕ್ಯಾನ್ ಮತ್ತು ಪಾವ್]]></string>
+        <string name="see_transaction_history">ಲಾಭಾಗರಿತಗಳ ಇತಿಹಾಸ ನೋಡಿ</string>
+        <string name="check_bank_balance">ಬ್ಯಾಂಕ್ ಶೇಷವನ್ನು ಪರಿಶೀಲಿಸಿ</string>
+        <string name="edit_info">ಮಾಹಿತಿ ಸಂಪಾದಿಸಿ</string>
+        <string name="your_qr_code">ನಿಮ್ಮ QR ಕೋಡ್</string>
+        <string name="change_bank_account">ಬ್ಯಾಂಕ್ ಖಾತೆ ಬದಲಾಯಿಸಿ</string>
+        <string name="change_language">ಭಾಷೆ ಬದಲಾಯಿಸಿ</string>
+        <string name="log_out">ಲಾಗ್ ಔಟ್</string>
+        <string name="scan_to_pay_with_any_upi_app">ಯಾವುದೇ ಯುಪಿ ಅಪ್ಲಿಕೇಶನ್‌ನೊಂದಿಗೆ ಪಾವ್ ಮಾಡಲು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
+        <string name="register">ನೋಂದಣಿ</string>
+        <string name="name">ಹೆಸರು</string>
+        <string name="phone_number">ಫೋನ್ ಸಂಖ್ಯೆ</string>
+        <string name="upi_id_optional">ಯುಪಿ ಐಡಿ (ಐಚ್ಛಿಕ)</string>
+        <string name="enter_phone_number">ಫೋನ್ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ</string>
+        <string name="enter_amount">ಮೊತ್ತ ನಮೂದಿಸಿ</string>
+        <string name="pay">ಪಾವ್</string>
+        <string name="paste_here">ಇಲ್ಲಿ ಹಚ್ಚಿರಿ</string>
+        <string name="search">ಹುಡುಕಿ</string>
+    <string name="reset_pin">ಪಿನ್ ಮರುಹೊಂದಿಸಿ</string>
+
+
+</resources>

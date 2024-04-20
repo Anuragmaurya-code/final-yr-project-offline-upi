@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Offline UPI</string>
+        <string name="continue_next">തുടരുക</string>
+        <string name="to_mobile_or_contact">മൊബൈൽ അല്ലെങ്കിൽ കോൺടാക്റ്റിലേക്ക്</string>
+        <string name="upi_transfer">UPI അന്വയനം</string>
+        <string name="bank_transfer">ബാങ്ക് അന്വയനം</string>
+        <string name="scan_pay"><![CDATA[സ്കാൻ & പേയ്]]></string>
+        <string name="see_transaction_history">ലാഭം-നഷ്ടം ചരിത്രം കാണുക</string>
+        <string name="check_bank_balance">ബാങ്ക് ശേഷം പരിശോധിക്കുക</string>
+        <string name="edit_info">വിവരം എഡിറ്റ് ചെയ്യുക</string>
+        <string name="your_qr_code">നിങ്ങളുടെ QR കോഡ്</string>
+        <string name="change_bank_account">ബാങ്ക് അക്കൗണ്ട് മാറ്റുക</string>
+        <string name="change_language">ഭാഷ മാറ്റുക</string>
+        <string name="log_out">ലോഗ് ഔട്ട്</string>
+        <string name="scan_to_pay_with_any_upi_app">ഏതെങ്കിലും UPI ആപ്പിൽ പേയ്‌മെന്റ് ചെയ്യാൻ സ്കാൻ ചെയ്യുക</string>
+        <string name="register">രജിസ്റ്റർ ചെയ്യുക</string>
+        <string name="name">പേര്</string>
+        <string name="phone_number">ഫോൺ നമ്പർ</string>
+        <string name="upi_id_optional">UPI ID (ഐച്ഛികം)</string>
+        <string name="enter_phone_number">ഫോൺ നമ്പർ നൽകുക</string>
+        <string name="enter_amount">തുക നൽകുക</string>
+        <string name="pay">പേയ്</string>
+        <string name="paste_here">ഇവിടെ ചേർക്കുക</string>
+        <string name="search">തിരയുക</string>
+    <string name="reset_pin">പിൻ മറക്കുക</string>
+
+
+</resources>

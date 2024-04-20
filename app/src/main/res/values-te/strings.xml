@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Offline UPI</string>
+        <string name="continue_next">కొనసాగండి</string>
+        <string name="to_mobile_or_contact">మొబైల్ లేదా సంప్రదించండి</string>
+        <string name="upi_transfer">UPI రిట్రాన్స్ఫర్</string>
+        <string name="bank_transfer">బ్యాంక్ రిట్రాన్స్ఫర్</string>
+        <string name="scan_pay"><![CDATA[స్కాన్ & చెల్లింపు]]></string>
+        <string name="see_transaction_history">లాభార్జన చరిత్రను చూడండి</string>
+        <string name="check_bank_balance">బ్యాంక్ శేషం తనిఖీ చేయండి</string>
+        <string name="edit_info">సమాచారాన్ని సవరించండి</string>
+        <string name="your_qr_code">మీ QR కోడ్</string>
+        <string name="change_bank_account">బ్యాంక్ ఖాతాను మార్చు</string>
+        <string name="change_language">భాషను మార్చు</string>
+        <string name="log_out">లాగ్ అవుట్</string>
+        <string name="scan_to_pay_with_any_upi_app">ఏదేను UPI అనువర్తనంతో చెల్లింపు చేయడానికి స్కాన్ చేయండి</string>
+        <string name="register">నమోదు చేయండి</string>
+        <string name="name">పేరు</string>
+        <string name="phone_number">ఫోన్ సంఖ్య</string>
+        <string name="upi_id_optional">UPI ఐడి (ఐచ్చికం)</string>
+        <string name="enter_phone_number">ఫోన్ నంబర్ ఎంటర్ చేయండి</string>
+        <string name="enter_amount">మొత్తం ఎంటర్ చేయండి</string>
+        <string name="pay">చెల్లింపు</string>
+        <string name="paste_here">ఇక్కడ పేస్ట్ చేయండి</string>
+        <string name="search">వెతుకు</string>
+    <string name="reset_pin">పిన్ రీసెట్ చేయండి</string>
+
+
+</resources>

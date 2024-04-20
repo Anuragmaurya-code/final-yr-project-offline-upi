@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Offline UPI</string>
+    <string name="continue_next">Continue</string>
+    <string name="to_mobile_or_contact">To Mobile or Contact</string>
+    <string name="upi_transfer">UPI Transfer</string>
+    <string name="bank_transfer">Bank Transfer</string>
+    <string name="scan_pay"><![CDATA[Scan & Pay]]></string>
+    <string name="see_transaction_history">See Transaction History</string>
+    <string name="check_bank_balance">Check Bank Balance</string>
+    <string name="edit_info">Edit Info</string>
+    <string name="your_qr_code">Your QR code</string>
+    <string name="change_bank_account">Change Bank Account</string>
+    <string name="change_language">Change Language</string>
+    <string name="log_out">Log Out</string>
+    <string name="scan_to_pay_with_any_upi_app">Scan to pay with any UPI app</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="upi_id_optional">UPI ID (optional)</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="pay">Pay</string>
+    <string name="paste_here">Paste Here</string>
+    <string name="search">Search</string>
+    <string name="reset_pin">Reset Pin</string>
+    <string name="submit">Submit</string>
+    <string name="forget_pin">Forget Pin</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="set_pin">Set PIN</string>
+    <string name="select_from_contacts">Select from Contacts</string>
+
+</resources>
